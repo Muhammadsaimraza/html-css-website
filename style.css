@@ -1,0 +1,456 @@
+.navbar {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+
+.icons {
+    width: 100px;
+    height: 15px;
+    color: white;
+    border: 1px solid white;
+}
+
+.newnav {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newnavs {
+    display: flex;
+}
+
+a {
+    display: flex;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.newnavs a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    padding-left: 40px;
+}
+
+.dashboard {
+    color: white;
+    background-color: rgb(83, 243, 83);
+    width: 100%;
+    height: 470px;
+}
+
+.advantage {
+    color: black;
+    background-color: rgb(226, 215, 215);
+    width: 100%;
+    height: 370px;
+}
+
+.aboutus {
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+}
+
+.ourservices {
+    width: 100%;
+    height: 370px;
+    background-color: rgb(151, 147, 147);
+}
+
+.ourportfolio {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+
+.ourprocess {
+    width: 100%;
+    height: 330px;
+    background-color: rgb(233, 219, 219);
+}
+
+.peopleaboutus {
+    width: 100%;
+    height: 450px;
+    background-color: gray;
+}
+
+.ourskill {
+    width: 100%;
+    height: 370px;
+    background-color: rgb(247, 233, 233);
+}
+
+.newproject {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(28, 226, 28);
+}
+
+.ourcontacts {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(78, 68, 68);
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(13, 153, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    width: 100%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 30%;
+}
+
+.headingleft {
+    width: 35%;
+    height: 40px;
+    background-color: rgb(155, 255, 4);
+}
+
+.headingright {
+    width: 35%;
+    height: 40px;
+    background-color: rgb(157, 255, 9);
+}
+
+.headingtext {
+    width: 30%;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    bottom: 20px;
+}
+
+.dashtext {
+    background-color: transparent;
+    width: 50%;
+    height: 40px;
+    position: relative;
+    top: 40%;
+    left: 25%;
+    margin-bottom: 20px;
+}
+
+#fordash {
+    position: relative;
+    top: 50%;
+    left: 47%;
+    color: black;
+    background-color: rgb(245, 222, 19);
+    border: none;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+}
+
+#fordash:active {
+    background-color: rgb(226, 206, 25);
+}
+
+.circles {
+    width: 3%;
+    height: 20px;
+    background-color: transparent;
+    position: relative;
+    top: 62%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle1 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.circle2 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.circle3 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.adboxes {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+
+.box1 {
+    width: 18%;
+    height: 85%;
+}
+
+.box1cir {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    left: 50px;
+}
+
+.box1text {
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
+
+.box2 {
+    width: 18%;
+    height: 85%;
+}
+
+.box2cir {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    left: 50px;
+}
+
+.box2text {
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
+
+.box3 {
+    width: 18%;
+    height: 85%;
+}
+
+.box3cir {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    left: 50px;
+}
+
+.box3text {
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
+
+.box4 {
+    width: 18%;
+    height: 85%;
+}
+
+.box4cir {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    left: 50px;
+}
+
+.box4text {
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
+
+.box5 {
+    width: 18%;
+    height: 85%;
+}
+
+.box5cir {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    left: 50px;
+}
+
+.box5text {
+    font-size: small;
+    color: rgb(0, 0, 0);
+}
+
+.textbutton {
+    height: 70%;
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#btn2 {
+    width: 22%;
+    height: 35px;
+    border: none;
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(236, 103, 14);
+}
+
+.abouttext {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#text1 {
+    margin-left: 10px;
+}
+
+.sertext {
+    display: flex;
+    justify-content: center;
+}
+
+#block1 {
+    text-align: center;
+}
+
+.serbox {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.serboxs1 {
+    width: 20%;
+    height: 65%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.serboxs2 {
+    width: 20%;
+    height: 65%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.serboxs3 {
+    width: 20%;
+    height: 65%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.serboxs4 {
+    width: 20%;
+    height: 65%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.porttext {
+    display: flex;
+    justify-content: center;
+}
+
+.portphotos {
+    width: 90%;
+    height: 60%;
+    border: 1px solid whitesmoke;
+    margin-left: 69px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.headfoot {
+    width: 90%;
+    height: 250px;
+    display: flex;
+}
+
+.foot1 {
+    width: 30%;
+    height: 250px;
+}
+
+.foot2 {
+    width: 30%;
+    height: 250px;
+    border-right: 2px solid white;
+}
+
+.foot3 {
+    width: 30%;
+    height: 250px;
+    border-right: 2px solid white;
+}
+
+.foot4 {
+    width: 30%;
+    height: 250px;
+}
+
+li {
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+.links {
+    width: 150px;
+    height: 20px;
+}
+
+.peo1icon {
+    background: url(p1.png);
+    background-size: contain;
+}
+
+.peo2icon {
+    background: url(p2.png);
+    background-size: contain;
+}
+
+.peo3icon {
+    background: url(p3.png);
+    background-size: contain;
+}
+
+.peo4icon {
+    background: url(p4.png);
+    background-size: contain;
+}
+
+.conpic {
+    background: url(p1.png);
+    background-size: contain
+}
